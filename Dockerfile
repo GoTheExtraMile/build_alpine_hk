@@ -1,11 +1,11 @@
-FROM alpine:3.8
+FROM alpine:3.9
 
 MAINTAINER un
 
-LABEL msg="use alpine3.8 include bash glibc time_zone Asia/Shanghai"
+LABEL msg="use alpine3.9 include bash glibc time_zone Asia/Shanghai"
 
 #设置glibc版本号
-ENV GLIBC_PKG_VERSION=2.28-r0 \
+ENV GLIBC_PKG_VERSION=2.29-r0 \
 #设置时区为上海
     TIME_ZONE=Asia/Shanghai
 
